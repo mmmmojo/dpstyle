@@ -1,0 +1,59 @@
+#dp_header {
+    display: none;
+}
+
+#dp_loading {
+    display: none;
+}
+
+.dp-omnibox .input-area {
+    height: 30px;
+    /*left: 47px;*/
+    z-index: 100000;
+    left: 340px;
+    top: 3px;
+    width: 200px;
+}
+
+.dp-omnibox-wrap .dp-omnibox {
+    margin-top: 0;
+}
+
+#react_dp_side_bar_container {
+    display: none;
+}
+
+#dp_center {
+    left: 0 !important;
+    top: 0;
+}
+
+#tabNavigationPane {
+    top: 0;
+}
+
+.table-result-list table tbody td {
+    padding: 0;
+}
+
+#dp_content {
+    background-color: #d5d6da;
+}
+
+.table-result-list table .obj-id {
+    font-size: 8px;
+    font-weight: bold;
+}
+
+.table-result-list table.with-set .cell-value {
+    text-overflow: clip;
+    border-right: 1px dashed grey;
+}
+
+#ticket_filter_18_count { /* this just highlights the button next to whatever filter is in position 18, which is Support & Open for me.  you can change it to whatever you want to highlight. */
+    background-color: #E91E63 !important;
+}
+
+#ticket_filter_1_count {
+    background-color: #03A9F4 !important;
+}
